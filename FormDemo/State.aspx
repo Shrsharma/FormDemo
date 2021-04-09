@@ -9,6 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lblCounter" runat="server" Text=""></asp:Label>
+            <asp:Button ID="Button1" OnClick="Button1_Click" runat="server" Text="Increase Counter" />
         </div>
     </form>
 </body>
